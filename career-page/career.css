@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.head{
+    height: 5vh;
+}
+
+.join{
+    background-image: url(./5\ Reasons\ Why\ Macbook\ Pro\ 16\ -inch\ is\ the\ Best\ Laptop\ of\ 2020.jpeg);
+    background-position: 50%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    color: white;
+}
+.content{
+    margin: auto;
+
+}
+.contain{
+    height: 100vh;
+    background-color: green;
+    display: fle;
+    justify-content: center;
+}

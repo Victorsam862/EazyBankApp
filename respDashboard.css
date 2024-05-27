@@ -1,0 +1,93 @@
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width:992px)and (min-width: 500px){
+    .row{
+        margin-top: 20px!important;
+        display: none;
+    }
+    .dashboard{
+        border-radius: 0px!important;
+    }
+    .contain{
+        padding: 0px!important;
+        border-radius: 10px!important;
+    }
+    #buttons button{
+        display: block!important;
+        background-color: black;
+    }
+    .dash-head{
+        display: block;
+    }
+    .trns{
+        display: none;
+    }
+    .mobile{
+        display: block!important;
+    }
+    .side-bar{
+        display: none;
+    }
+    .tester{
+        display: none!important;
+    }
+    .carousel-inner{
+        display: block;
+    }
+    
+    #sending{
+        display: block;
+    }
+    .kill{
+        display: none!important;
+    }
+    .quick-actions{
+        display: block!important;
+    }
+    .mobile-card{
+        display: block;
+    }
+    .dash-head{
+        display: block!important;
+    }
+    .footer{
+        display: flex!important;
+    }
+}
+@media screen and (min-width:400px)and (max-width:760px) {
+    .num{
+        display: none;
+    } 
+    .kill{
+        display: none!important;
+    } 
+    .dash-head{
+        display: block;
+    }
+    #sending{
+        display: bloc;
+    }
+    .side-bar{
+        display: none!important;
+    }
+    .tester{
+        display: non!important;
+    }
+    .carousel-inner{
+        display: block;
+    }
+    .quick-actions{
+        display: block!important;
+    }
+    .mobile-card{
+        display: block;
+    }
+    .dash-head{
+        display: block!important;
+    }
+    .footer{
+        display: flex!important;
+    }
+}

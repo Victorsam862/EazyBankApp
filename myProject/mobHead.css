@@ -1,0 +1,65 @@
+.logo #log{
+    width: 30%!important;
+}
+.logo{
+    margin: 25px;
+}
+
+.logo .ham{
+    height: 15px!important;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 35px;
+}
+
+#head{
+    background-color:hsl(220, 16%, 96%);
+    width: 100%;
+    display: none;
+    height: 80px;
+    
+}
+.background {
+    margin-bottom: 500px;
+    display: none;
+}
+img.image3{
+    width: 170%!important;
+    position: absolute;
+    margin-left: 0px!important;
+    left: 0px;
+    margin: auto!important;
+    right: 0px!important;
+    
+}
+/* .head{
+    position: relative!important;
+} */
+img.image3, img.image4{
+    /* width: 70vw!important; */
+    /* background-color: brown; */
+    display: block!important;
+    justify-content: center!important;
+    justify-items: center!important;
+    margin-left: 100px;
+}
+.image3 img, .image4 img{
+    height: 500px;
+    position: absolute;
+    width: 100%;    
+}
+.mob_head{
+    display: none;
+}
+.mob_head h4{
+    font-size: 50px!important;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.mob_head p, .mob_head{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}

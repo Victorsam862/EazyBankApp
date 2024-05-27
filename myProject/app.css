@@ -1,0 +1,165 @@
+*{
+    overflow-x: hidden;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+    justify-content: space-around; 
+    align-items: center;
+    height: 80px;
+    font-size: 18px;
+    background-color: hsl(220, 16%, 96%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer{
+    background-image: url(../images/Logos.jpeg);
+}
+li{
+    list-style: none;
+    margin:0px 20px;
+    color: gray;
+    
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ccc;
+}
+
+button{
+    border-radius: 20px!important;
+    width: 150px;
+    font-size: 15px!important;
+}
+
+.switch{
+    width: 60px;
+    position: relative;
+    display: block!important;
+}
+.check{
+    background-color: gree;
+    position: relative;
+    width: 80px;
+}
+#check{
+    display: non;
+}
+.ham{
+    background-color: re;
+    margin-top: -25px;
+    margin-right: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+.log{
+    background-color: green!important;
+}
+input:checked + .logo{
+    background-color: green;
+}
+.slider{
+    background-color: #ccc;
+    height: 26px;
+    position: absolute;
+    border-radius: 30px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.slider:before{
+    background-color: white;
+    content: "";
+    position: absolute;
+    height: 26px;
+    left: 6px;
+    width: 26px;
+    border-radius: 30px;
+    transition: 1s;
+}
+input:checked + .slider{
+    background-color: #2196F3;
+}
+input:checked + .slider:before{
+    transform: translateX(26px);
+}
+.image2 img{
+    height: 500px;
+    position: absolute;
+    width: 40%;
+    margin-left: 100px;
+}
+.image1 img{
+    position: absolute;
+    height: 420px;
+    width: 50%;
+}
+.row{
+    width: 100%;
+    padding-left: 110px;
+}
+.margin{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    letter-spacing: 2px;
+}
+.head{
+    padding-left: 110px;
+}
+.contain2{
+    padding-top: 70px;
+}
+h6{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.why{
+    font-size: 40px!important;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 1!important;
+}
+#check{
+    display: non;
+}
+#check:checked  ~.menu-resp ul{
+    background-color: black!important;
+    color: red;
+}
+.resp-menu{
+    margin-top: 10vh;
+    display: none;
+    margin-bottom: 0px!important;
+    position: fixed;
+    z-index: 1;
+    background-color: hsl(220, 16%, 96%);
+    text-align: center;
+    padding: 0px;
+    width: 39%;
+    margin: 10vh;
+    border-radius: 30px;
+}
+.resp-menu li{
+    padding: 20px!important;
+    font-size: 23px;
+}
+.resp-menu li a:hover{
+    color: black;
+}
+.menu-resp ul{
+    background-color: #2196F3;
+    position: absolute;
+    transition: 3s;
+    left: -370px;
+}
+#check:checked ~.demo{
+    /* position: absolute;
+    right: 270px; */
+    background-color: green;
+}

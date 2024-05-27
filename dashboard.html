@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/efe026d08e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./dashboard.css">
+    <link rel="stylesheet" href="./respDashboard.css">
+</head>
+<body>
+    <div class="contain">
+        <div class="content">
+            
+            <div class="side-bar">
+                <div class="image">
+                    <img src="./images/logo.svg" alt="">
+                </div>
+                
+                <ul>
+                    <a href=""><li><i class="fa-solid fa-house-chimney"></i></li></a>
+                    <a href=""><li><i class="fa-solid fa-tent"></i></li></a>
+                    <a href=""><li><i class="fa-solid fa-wallet"></i></li></a>
+                    <a href=""><li><i class="fa-solid fa-user"></i></li></a>
+                    <a href="./sign-in/sign-in.html"><li><i class="fa-solid fa-boxes-packing"></i></li></a>
+                </ul>
+
+                <ul class="fa_solid">
+                    <a href=""><li><i class="fa-solid fa-right-from-bracket "></i></li></a>
+                </ul>
+            </div>
+
+            <div class="dashboard bg-light p-5">
+                <div class="head d-flex kill ">
+                    <div class="name">
+                        <h4>Banking Dashboard</h4>
+                        <p>Welcome back Victor Samson</p>
+                    </div>
+    
+                    <div class="balance">
+                        <p>Current Balance</p>
+                        <h4 id="current"></h4>
+                    </div>
+    
+                    <div class="num">
+                        <h5>V</h5>
+                    </div>
+                </div>
+
+                <div class="breadcrums d-flex justify-content-between mt-3 kill">
+                    <div class="current-bal">
+                        <h5>Your current balance (6)</h5>
+                    </div>
+                    <div class="breadscrumbs">
+                        <span>Next</span>
+                    </div>
+                </div>
+
+
+                
+                <!-- My responsive design start here -->
+
+                <!-- Responsive dashboard starts here -->
+                <div class="dash-head">
+                    <div class="image-top d-flex justify-content-between">
+                        <img src="./app.image/WhatsApp Image 2023-12-04 at 12.58.32_c18f89b5.jpg" alt="">
+                        <a href=""><i class="fa-regular fa-bell"></i></a>
+                    </div>
+
+                    <div class="cards">
+                        <h4>Hello, Victor</h4>
+                        <p>What bill will you like to pay today? <span class="text-warning fs-4"><i class="fa-solid fa-hands-clapping"></i></span></p>
+                    </div>
+                </div>
+
+                <div class="card one py-3 px-4 mt-5 text-center mobile-card">
+                    <div class="top">
+                        <span class="fs-5">XXXX - 1128 - 3325 - 3411</span>
+                        <span></span>
+                    </div>
+                    <div class="amount mt-4 mb-1">
+                        <span></span>
+                        <h4 id="took">USD 2253.00</h4>
+                    </div>
+                    <div class="card-name">
+                        <span>Victor Samson</span>
+                        <p>05/26</p>
+                    </div>
+                    <button class="btn fund"><a href="">Fund Wallet <span><i class="fa-solid fa-plus"></i></span></a></button>
+                </div>
+                
+                <!-- Responsive dashboard ends here -->
+                  
+                <!-- Quick actions starts here -->
+
+                <div class="quick-actions">
+                    <div class="quick-head mt-5">
+                        <h5>Quick Actions</h5>
+                    </div> 
+
+                    <div class="row d-flex actions text-center gap-2">
+                        <div class="col quick">
+                            <span><i class="fa-solid fa-phone action"></i></span>
+                            <h5>Airtime</h5>
+                        </div>
+                        <div class="col quick">
+                            <span><i class="fa-solid fa-wifi action"></i></span>
+                            <h5>Data</h5>
+                        </div>
+                        <div class="col quick">
+                            <span><i class="fa-solid fa-display action"></i></span>
+                            <h5>CableTv</h5>
+                        </div>
+                        <div class="col quick">
+                            <span><i class="fa-solid fa-ellipsis action"></i></span>
+                            <h5>More</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick actions starts here -->
+
+
+                   
+          <div id="sending">
+            <div class="send-money " id="send">
+                <div class="send d-flex">
+                    <h5 class="fw-bold">Send money to</h5>
+                    <h6>Search</h6>
+                </div>
+                <div class="send-image ">
+                    <img src="./app.image/WhatsApp Image 2023-12-04 at 12.58.32_c18f89b5.jpg" alt="">
+                    <img src="./app.image/WhatsApp Image 2023-12-04 at 12.58.32_c18f89b5.jpg" alt="">
+                    <img src="./app.image/WhatsApp Image 2023-12-04 at 12.58.32_c18f89b5.jpg" alt="">
+                    <img src="./app.image/WhatsApp Image 2023-12-04 at 12.58.32_c18f89b5.jpg" alt="">
+                    <span><i class="fa-solid fa-plus"></i></span>
+                </div>
+                
+                <div class="send-image">
+
+                </div>
+                <div class="send-amount">
+                    <h6 class="fw-bold">Amount</h6>
+                </div>
+                <div class="send-input d-flex ga">
+                    <input type="number" name="" id="send-input" placeholder="USD">
+                    <button class="btn btn-warning" id="input-btn">Send</button>
+                </div>
+          </div>
+
+            <div class="total-sent mt-5">
+                <div class="recent-activity d-flex  justify-content-between">
+                    <h4 class="fw-bold mb-4">Recent Activity</h4>
+                    <p class="text-warning fw-bold">See all</p>
+                </div>
+
+                <div class="sent-record">
+                    <div class="d-flex justify-content-between">
+                
+                        <div class="name d-flex" id="name">
+                            <div class="total imag ">
+                                <img src="./app.image/WhatsApp Image 2023-12-04 at 16.50.11_65ab4199.jpg" alt="">
+                            </div>
+                            <div class="name">
+                                <h5 class="mb-0">Samuel Peters</h5>
+                                <p>03 August 2020</p>
+                            </div>
+                        </div>
+
+                        <div class="price">
+                            <h6>$450.00USD</h6>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="sent-record mt-4 mb-4">
+                    <div class="d-flex justify-content-between">
+                
+                        <div class="name d-flex" id="name">
+                            <div class="total imag ">
+                                <img src="./app.image/WhatsApp Image 2023-12-04 at 16.50.11_65ab4199.jpg" alt="">
+                            </div>
+                            <div class="name">
+                                <h5 class="mb-0">Samuel Peters</h5>
+                                <p>03 August 2020</p>
+                            </div>
+                        </div>
+
+                        <div class="price">
+                            <h6>$450.00USD</h6>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="sent-record">
+                    <div class="d-flex justify-content-between">
+                
+                        <div class="name d-flex" id="name">
+                            <div class="total imag ">
+                                <img src="./app.image/WhatsApp Image 2023-12-04 at 16.50.11_65ab4199.jpg" alt="">
+                            </div>
+                            <div class="name">
+                                <h5 class="mb-0">Samuel Peters</h5>
+                                <p>03 August 2020</p>
+                            </div>
+                        </div>
+
+                        <div class="price">
+                            <h6>$450.00USD</h6>
+                        </div>
+
+                    </div>
+                </div>
+          </div>
+          
+          </div>
+          
+
+        <!-- My responsive design ends here -->
+
+
+
+        <div class="row mt-4">
+            <div class="col col-lg-3 col-md-6 col-sm-12">
+                <div class="card py-3 px-4">
+                    <div class="top">
+                        <span>XXXX - 3238 - 2312 - 1114</span>
+                        <span></span>
+                    </div>
+                
+                    <div class="amount mt-4 mb-1">
+                        <span></span>
+                        <h4 id="one">2,125.55</h4>
+                    </div>
+                    <div class="card-name">
+                        <span>Victor Samson</span>
+                        <p>03/26</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col col-lg-3 col-md-6 col-sm-12">
+                <div class="card one py-3 px-4">
+                    <div class="top">
+                        <span>XXXX - 1128 - 3325 - 3411</span>
+                        <span></span>
+                    </div>
+                    <div class="amount mt-4 mb-1">
+                        <span></span>
+                        <h4 id="took">2253</h4>
+                    </div>
+                    <div class="card-name">
+                        <span>Victor Samson</span>
+                        <p>05/26</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col col-lg-3 col-md-6 col-sm-12">
+                <div class="card py-3 px-4">
+                    <div class="top">
+                        <span>XXXX - 2128 - 4455 - 1434</span>
+                        <span></span>
+                    </div>
+                    <div class="amount mt-4 mb-1">
+                        <span></span>
+                        <h4 id="one">523</h4>
+                    </div>
+                    <div class="card-name">
+                        <span>Victor Samson</span>
+                        <p>01/26</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col col-lg-3 col-md-6 col-sm-12">
+                <div class="card cake py-3 px-4">
+                    <div class="top">
+                        <span>XXXX - 7028 - 3435 - 3434</span>
+                        <span></span>
+                    </div>
+                    <div class="amount mt-4 mb-1">
+                        <span></span>
+                        <h4 id="bals4">3,435.34</h4>
+                    </div>
+                    <div class="card-name">
+                        <span>Victor Samson</span>
+                        <p>10/26</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                
+                <div class="row trns">
+                    
+                    <div class="col col-lg-8">
+                        <div class=" tester">
+                            <div class="transactions d-flex">
+                                <h4>My Transactions</h4>
+                                <span>See All</span>
+                            </div>
+    
+                            <div class="trnx">
+                                <div class="Pateron d-flex">
+                                    <div class="member col-6">
+                                        <div class="d-flex gap-2">
+                                            <span><i class="fa-solid fa-box-archive text-warning"></i></span>
+                                            <p class="p mb-0">Pateron Membership</p>
+                                        </div>
+                                        <span>20 May 2024</span>
+                                    </div>
+                                    <div class="part d-flex col-6">
+                                        <div class="subscribe">
+                                            <span></span>
+                                            <p class="p warning">Subscribe</p>
+                                        </div>
+                                        <div class="price">
+                                            <p class="p">$250.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                                <div class="geek d-flex">
+                                    <div class="inc col-6">
+                                        <div class="geek d-flex gap-2">
+                                            <span class="mt-3"><i class="fa-regular fa-user text-primary"></i></span>
+                                            <p class="p mb-0 mt-3">UI GEEK INC</p>
+                                        </div>
+                                        <span>10 March 2024</span>
+                                    </div>
+                                    <div class="part d-flex col-6 mt-3">
+                                        <div class="receive">
+                                            <p class="p success">Received</p>
+                                        </div>
+                                        <div class="price">
+                                            <p class="p">$4,350.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="sent d-flex">
+                                    <div class="col-6 ">
+                                        <div class="d-flex gap-2">
+                                            <span class="mt-3"><i class="fa-solid fa-briefcase text-danger"></i></span>
+                                            <p class="p mb-0 mt-3">SamBen ltd</p>
+                                        </div>
+                                        <span>15 July 2022</span>
+                                    </div>
+                                    <div class="col-6 part d-flex mt-3">
+                                        <div class="status">
+                                            <p class="p danger">Sent</p>
+                                        </div>
+                                        <div class="price">
+                                            <p class="p">$10,000</p>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="labou d-flex">
+                                    <div class="hiltam col-6 ">
+                                        <div class="hiltam d-flex gap-2">
+                                            <span class="mt-3"><i class="fa-solid fa-exclamation text-primary"></i></span>
+                                            <p class="p mb-0 mt-3">Hiltam Labou</p>
+                                        </div>
+                                        <span>20 January 2024</span>
+                                    </div>
+                                    <div class="part d-flex col-6 mt-3">
+                                        <div class="status">
+                                            <p class="p success">Received</p>
+                                        </div>
+                                        <div class="price">
+                                            <p class="p">$250.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="imac d-flex">
+                                    <div class="5k col-6 ">
+                                        <div class="iMac d-flex gap-2">
+                                            <span class="mt-3"><i class="fa-solid fa-apple-whole"></i></span>
+                                            <p class="p mb-0 mt-3">IMac 5k</p>
+                                        </div>
+                                        <span>10 May 2023</span>
+                                    </div>
+                                    <div class="part d-flex col-6 mt-3">
+                                        <div class="status">
+                                            <p class="p warning">Purchase</p>
+                                        </div>
+                                        <div class="price">
+                                            <p class="p">$6,350.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="sent d-flex">
+                                    <div class="col-6">
+                                        <div class="d-flex gap-2">
+                                            <span class="mt-3"><i class="fa-solid fa-exclamation text-warning"></i></span>
+                                            <p class="p mt-3 mb-0">ChiKen ltd</p>
+                                        </div>
+                                        <span>10 June 2022</span>
+                                    </div>
+                                    <div class="col-6 part d-flex mt-3">
+                                        <div class="status">
+                                            <p class="p danger">Sent</p>
+                                        </div>
+                                        <div class="price">
+                                            <p class="p">$3,200</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      
+                    </div>
+
+                    <div class="col col-lg-4">
+                        <div class="tester">
+                            <div class="send d-flex">
+                                <h4>Send Money</h4>
+                                <span>S</span>
+                            </div>
+                            <div class="sending px-3">
+                                <div class="image d-flex gap-4">
+                                    <img src="./app.image/WhatsApp Image 2023-12-04 at 12.58.32_c18f89b5.jpg" alt="">
+                                    <img src="./app.image/WhatsApp Image 2023-12-04 at 16.50.11_65ab4199.jpg" alt="">
+                                    <img src="./app.image/WhatsApp Image 2023-12-04 at 12.58.32_c18f89b5.jpg" alt="">
+                                    <img src="./app.image/WhatsApp Image 2023-12-04 at 16.50.11_65ab4199.jpg" alt="">
+                                </div>
+                                <div class="amount">
+                                    <p class="mb-0 mt-4">Amount</p>
+                                    <div class="enter-amount ">
+                                        <input type="text" placeholder="GBP">
+                                    </div>
+                                    <div class="button pb-3">
+                                        <button class="btn btn-danger">SEND MONEY</button>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="travel">
+                                <img src="./images/image-restaurant.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+        <footer class="d-flex footer justify-content-around">
+            <a href=""><i class="fa-solid fa-house-chimney text-warning"></i></a>
+            <a href=""><i class="fa-solid fa-tent"></i></a>
+            <a href=""><i class="fa-solid fa-wallet"></i></a>
+            <a href=""><i class="fa-solid fa-user"></i></a>
+        </footer>
+    </div>
+    
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./dash.js"></script>
+</body>
+</html>

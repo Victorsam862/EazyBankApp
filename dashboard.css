@@ -1,0 +1,343 @@
+*{
+    padding: 0px!important;
+    margin: 0px;
+}
+ul li{
+    list-style: none;
+    color: gray;
+    margin: 70px 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.image img{
+    height: 50px;
+    margin-top: 30px;
+    background-color: hsl(233, 8%, 62%);
+    width: 100%;
+}
+.side-bar{
+    background-color: hsl(233, 26%, 24%);
+    width: 150px;
+    position: relative;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.cake{
+    color: black;
+    background-image: linear-gradient(to top right, orange, red, green, black, gray,white,blue,yellow);
+}
+.one{
+    animation: alternate;
+    animation-name: select;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes select{
+    0%{background-color: greenyellow;}
+    25%{background-color: goldenrod;}
+    50%{background-color: aquamarine;}
+    75%{background-color: gray;}
+    100%{ background-color: aliceblue;}
+}
+.fa_solid{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
+.content{
+    display: flex;
+    border-radius: 10px;    
+}
+.contain{
+    padding: 100px 0px!important;
+    background-image: url(./images/Logos.jpeg);
+}
+.dashboard{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 100%;
+}
+.head{
+    display: flex;
+    justify-content: space-between!important;
+}
+.card{
+    border-radius: 15px;
+    width: 96%;
+    font-weight: bold;
+}
+.card:hover{
+    box-shadow: 0px 5px 10px 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+.p{
+    font-weight: bold;
+}
+.Pateron{
+    justify-content: space-around!important;
+    width: 100%;
+
+}
+.part{
+    justify-content: space-between!important;
+    
+}
+.transactions{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+.trnx{
+    background-color: white;
+    border-radius: 15px;
+    padding: 33px!important;
+}
+.balance{
+    padding: 10px 25px!important;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    background-color: lightgreen;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 2px 0px 10px 0px grey;
+    transition: 1s;
+    cursor: pointer;
+}
+.head{
+    align-items: center;
+}
+.num{
+    background-color: tomato;
+    padding: 1px 15px!important;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 0px 10px 0px grey;
+    cursor: pointer;
+}
+.send{
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+.sending{
+    background-color: white;
+    border-radius: 15px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid;
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+::placeholder{
+    position: absolute;
+    right: 0;
+    font-weight: bold;
+}
+.btn-danger{
+    padding: 5px 0px!important;
+    width: 80%;
+    margin-bottom: 20px;
+    display: block;
+    margin: auto;
+}
+.sending .image img{
+    border-radius: 50px;
+}
+.travel img{
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.tester{
+    width: 96%;
+
+}
+.month{
+    margin: 34px 0px;
+}
+.limit{
+    justify-content: space-between;
+    
+}
+.statistic{
+    background-color: white;
+    border-radius: 15px;
+}
+.danger{
+    background-color: greenyellow;
+    padding: 5px 15px!important;
+    border-radius: 10px;
+    color: green;
+}
+.warning{
+    background-color: pink;
+    padding: 5px 15px!important;
+    border-radius: 10px;
+    color: red;
+}
+.success{
+    background-color: lightgoldenrodyellow;
+    padding: 5px 15px!important;
+    border-radius: 10px;
+    color: orange;
+}
+.travel img{
+    height: 215px!important; 
+}
+.carousel-inner{
+    display: none;
+}
+#send-input{
+    border: 3px solid whitesmoke!important;
+    background-color: white;
+    height: 50px!important;
+    margin: 0px;
+    border-radius: 10px;
+    
+}
+.send-input{
+    align-items: center;
+    gap: 1px;
+}
+#input-btn{
+    height: 43px!important;
+    width: 70px;
+}
+#name{
+    gap: 20px;
+}
+.total img{
+    background-color: yellow;
+    height: 70px!important;
+    border-radius: 15px;
+}
+.res-footer{
+    position: fixed;
+}
+#sending{
+    display: none;
+}
+#buttons{
+    display: none;
+}
+.dash-head{
+    display: none;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 70px;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    
+}
+.footer{
+    display: none!important;
+    font-size: 25px;
+}
+.footer a i{
+    color: black;
+}
+.dash-head a i{
+    font-size: 25px;
+    border: 1px solid;
+    padding: 8px 15px!important;
+    border-radius: 15px;
+    color: gray;
+}
+.image-top img{
+    width: 70px!important;
+    height: 60px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.image-top{
+    align-items: center;
+}
+.fund{
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    width: 40%;
+    margin-top: 20px!important;
+    margin: auto;
+    height: 6vh;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button a:hover{
+    color: black;
+}
+
+.fund:hover{
+    background-color: whitesmoke;
+}
+.fa-plus{
+    background-color: aliceblue;
+    padding: 2px!important;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.actions{
+    height: 120px;
+    align-items: center;
+    margin-bottom: 70px!important;
+    
+}
+.quick-actions{
+    display: none!important;
+}
+.mobile-card{
+    display: none;
+}
+.quick{
+    background-color: white;
+    height: 120px;
+    border-radius: 30px;
+    ;
+    cursor: pointer;
+    box-shadow: 1px 5px 10px 0px;
+    transition: 1s;
+    
+}
+.action{
+    font-size: 25px!important;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.send-image img {
+    width: 70px!important;
+    margin-bottom: 40px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: -8px;
+    
+}
+.send-image{
+    position: relative;
+}
+.send-image .fa-plus{
+    padding: 17px 20px!important;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    background-color: grey;
+    font-size: 20px;
+    margin-left: 15px!important;
+}
+
+
+
+
+
