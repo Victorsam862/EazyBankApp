@@ -9,6 +9,9 @@ ul li{
     font-size: 30px;
     text-align: center;
 }
+.label{
+    display: non;
+}
 
 .image img{
     height: 50px;
