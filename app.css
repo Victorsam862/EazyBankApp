@@ -18,7 +18,6 @@ li{
     list-style: none;
     margin:0px 20px;
     color: gray;
-    
 }
 a{
     text-decoration: none;
@@ -43,10 +42,9 @@ button{
     width: 80px;
 }
 #check{
-    display: non;
+    display: none;
 }
 .ham{
-    background-color: re;
     margin-top: -25px;
     margin-right: 50px;
     position: absolute;
@@ -54,12 +52,10 @@ button{
     right: 0;
     left: 0;
     top: 0;
-}
-.log{
-    background-color: green!important;
+    
 }
 input:checked + .logo{
-    background-color: green;
+    background-color: brown;
 }
 .slider{
     background-color: #ccc;
@@ -99,7 +95,7 @@ input:checked + .slider:before{
     width: 50%;
 }
 .row{
-    width: 100%;
+    width: 105%;
     padding-left: 110px;
 }
 .margin{
@@ -126,9 +122,9 @@ h6{
     z-index: 1!important;
 }
 #check{
-    display: non;
+    display: none;
 }
-#check:checked  ~.menu-resp ul{
+input:checked  + .menu-resp{
     background-color: black!important;
     color: red;
 }
