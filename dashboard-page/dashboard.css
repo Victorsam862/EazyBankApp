@@ -9,9 +9,6 @@ ul li{
     font-size: 30px;
     text-align: center;
 }
-.label{
-    display: non;
-}
 
 .image img{
     height: 50px;
@@ -53,14 +50,19 @@ ul li{
     display: flex;
     border-radius: 10px;    
 }
-.contain{
+/* .contain{
     padding: 100px 0px!important;
     background-image: url(./images/Logos.jpeg);
-}
+} */
 .dashboard{
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     width: 100%;
+}
+#mob-icons{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
 }
 .head{
     display: flex;
@@ -269,7 +271,7 @@ footer{
     font-size: 20px;
     font-weight: bold;
     border-radius: 25px;
-    width: 40%;
+    width: 25vh;
     margin-top: 20px!important;
     margin: auto;
     height: 6vh;
@@ -307,7 +309,6 @@ button a:hover{
     background-color: white;
     height: 120px;
     border-radius: 30px;
-    ;
     cursor: pointer;
     box-shadow: 1px 5px 10px 0px;
     transition: 1s;
@@ -339,6 +340,7 @@ button a:hover{
     font-size: 20px;
     margin-left: 15px!important;
 }
+
 
 
 

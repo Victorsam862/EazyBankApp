@@ -60,6 +60,24 @@
     .num{
         display: none;
     } 
+    #sending{
+        display: block;
+    }
+    .send-money{
+        display: none;
+    }
+    .recent{
+        font-size: 20px;
+    }
+    .trns{
+        display: none!important;
+    }
+    .see{
+        display: none;
+    }
+    .card{
+        display: none;
+    }
     .kill{
         display: none!important;
     } 
