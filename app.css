@@ -3,6 +3,10 @@
     letter-spacing: 1px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.contain{
+    margin: 0px!important;
+    padding: 0px!important;
+}
 .header{
     justify-content: space-around; 
     align-items: center;
@@ -158,4 +162,7 @@ input:checked  + .menu-resp{
     /* position: absolute;
     right: 270px; */
     background-color: green;
+}
+.last{
+    display: none;
 }

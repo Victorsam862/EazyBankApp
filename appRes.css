@@ -131,10 +131,20 @@ h5{
     .card{
         display: none;
     }
+    .last{
+        display: block;
+    }
     .resp-menu{
         display: block;
     }
+    .background .image3 {
+        width: 100%!important;
+    }
+    .background .image4{
+        width: 80%!important;
+    }
     #head{
+        display: block!important;
         position: fixed;
         z-index: 1;
     }
@@ -198,9 +208,6 @@ h5{
     }
     .header{
        display: none!important;
-    }
-    #head{
-        display: block!important;
     }
     
 }
