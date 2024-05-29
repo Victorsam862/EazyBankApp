@@ -65,7 +65,7 @@ h5{
     .image3 img, .image4 img{
         height: 80vh!important;
         width: 105%!important;
-        margin-bottom: 200vh!important;
+        margin-bottom: 20vh!important;
     }
     .logo .ham{
         cursor: pointer;
@@ -138,10 +138,13 @@ h5{
         display: block;
     }
     .background .image3 {
-        width: 100%!important;
+        width: 95%!important;
+        height: 50vh!important;
+        position: absolute;
     }
     .background .image4{
-        width: 80%!important;
+        width: 75%!important;
+        height: 50vh!important;
     }
     #head{
         display: block!important;
@@ -155,11 +158,8 @@ h5{
         padding-left: 0%!important;
         text-align: center;
     }
-    .image3 img, .image4 img{
-        height: 80vh!important;
-        width: 105%!important;
-        margin-bottom: 200vh!important;
-    }
+    
+
     .logo .ham{
         cursor: pointer;
     }
@@ -175,10 +175,10 @@ h5{
     }
     .mob_head{
         display: block!important;
-        margin-top: 150px;
     }
     .background{
         display: block!important;
+        margin-bottom: 0px!important;
     }
     
     .footer{
