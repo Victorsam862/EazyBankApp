@@ -9,6 +9,7 @@
     }
     .dashboard{
         border-radius: 0px!important;
+        margin-left: 0px;
     }
     .contain{
         padding: 0px!important;
@@ -60,6 +61,9 @@
     .num{
         display: none;
     } 
+    .background{
+        margin-left: 0px;
+    }
     #sending{
         display: block;
     }

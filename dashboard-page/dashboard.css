@@ -22,6 +22,9 @@ ul li{
     position: relative;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
+    position: fixed;
+    height: 100vh;
+    z-index: 1;
 }
 .cake{
     color: black;
@@ -58,6 +61,10 @@ ul li{
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     width: 100%;
+    margin-left: 150px;
+}
+.col h5{
+    font-size: 16px;
 }
 #mob-icons{
     text-decoration: none;

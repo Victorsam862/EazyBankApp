@@ -3,7 +3,6 @@
     padding: 0;
 }
 .cont{
-    background-image: url(../images/Logos.jpeg);
     height: 100vh;
     display: flex;
 }
@@ -74,4 +73,14 @@ input{
     padding: 5px!important;
     font-size: 35px;
     margin-bottom: 8px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+
+.contain{
+    width: 100%;
+}
+.create{
+    width: 80%;
+}
 }

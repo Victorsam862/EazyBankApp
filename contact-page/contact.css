@@ -6,15 +6,16 @@
     background-color: whitesmoke;
     width: 80%;
     margin: auto;
-    
+    border-radius: 20px;
 }
+
 .cont-inner{
     padding-left: 40px;
 }
 input{
-    width: 50%;
+    width: 65%;
     padding: 8px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: gray;
     outline: none;
 }
@@ -22,15 +23,14 @@ input{
     height: 40px;
     background-color: blue!important;
     margin-top: 20px;
-    width: 50%;
-    border-radius: 20px;
+    width: 65%;
+    border-radius: 10px;
     color: white;
     margin-bottom: 20px;
     
 }
 #message{
     height: 100px;
-    
 }
 ::placeholder{
     position: absolute;
@@ -39,16 +39,24 @@ input{
 }
 .head{
     background-color: darkblue;
-    height: 40px;
+    height: 60px;
     width: 100%;
     padding-left: 0px!important;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
-.con{
-    background-image: url(../images/Logos.jpeg)!important;
-    height: 100vh;
-}
-
 .background{
     display: flex;
     height: 100vh;
+}
+@media screen and (min-width: 300px) and (max-width: 800px){
+    .content{
+        width: 100%;
+    }
+    input{
+        width: 85%;
+    }
+    .button{
+        width: 85%;
+    }
 }
