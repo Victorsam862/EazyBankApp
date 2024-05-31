@@ -8,6 +8,10 @@ h5{
     .col-md-6{
         margin-top: 50px;
     }
+    .logo ul{
+        display: none;
+    }
+
     #head{
         position: fixed;
         z-index: 1;
@@ -48,6 +52,9 @@ h5{
         margin-top: 50px;
         padding: 2px 20px!important;
     }
+    .logo ul a{
+        display: none;
+    }
     .resp-menu{
         display: block;
     }
@@ -67,9 +74,7 @@ h5{
         width: 105%!important;
         margin-bottom: 20vh!important;
     }
-    .logo .ham{
-        cursor: pointer;
-    }
+    
     .logo{
         display: flex!important;
     }
@@ -158,10 +163,8 @@ h5{
         padding-left: 0%!important;
         text-align: center;
     }
-    
-
-    .logo .ham{
-        cursor: pointer;
+    a .icon img .han{
+        background-color: brown!important;
     }
     .logo{
         display: flex!important;

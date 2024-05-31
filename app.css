@@ -1,7 +1,7 @@
 *{
     overflow-x: hidden;
     letter-spacing: 1px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .contain{
     margin: 0px!important;
@@ -48,15 +48,13 @@ button{
 #check{
     display: none;
 }
-.ham{
-    margin-top: -25px;
-    margin-right: 50px;
+.icon{
+    margin-top: px;
+    margin-right: px;
     position: absolute;
-    bottom: 0;
+    bottom: 1;
     right: 0;
-    left: 0;
-    top: 0;
-    
+    margin-right: 40px;
 }
 input:checked + .logo{
     background-color: brown;

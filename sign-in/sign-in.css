@@ -40,11 +40,11 @@ input{
 
 }
 .create{
-    border: 2px solid blue!important;
+    border: 2px solid grey!important;
     width: 50%;
     margin-top: 10px;
     border-radius: 15px!important;
-    color: blue!important;
+    color: black!important;
 }
 .forget{
     display: flex;
