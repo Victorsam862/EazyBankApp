@@ -52,6 +52,7 @@ h5{
         margin-top: 50px;
         padding: 2px 20px!important;
     }
+    
     .logo ul a{
         display: none;
     }
@@ -132,6 +133,9 @@ h5{
     .col-sm-12, .head h4, .head p{
         margin-top: 50px;
         padding: 2px 20px!important;
+    }
+    .topnav a{
+        display: block;
     }
     .card{
         display: none;
@@ -255,7 +259,6 @@ button{
     background-color: hsl(136, 65%, 51%)!important;
 }
 @media screen and (min-width: 300px) and (max-width: 700px){
-    
     .footer{
         display: block!important;
         width: 100%;

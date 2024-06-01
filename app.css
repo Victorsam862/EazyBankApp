@@ -180,8 +180,8 @@ input:checked  + .menu-resp{
     text-align: center;
     background-color: #ddd;
     text-align: center;
-    
   }
+  
   .topnav a:hover {
     background-color: white;
     color: black;
@@ -189,13 +189,18 @@ input:checked  + .menu-resp{
   /* .topnav .icon {
     display: none;
   } */
-  @media screen and (max-width: 600px) {
+  #myTopnav{
+    display: none;
+  }
+  @media screen and (max-width: 800px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
     }
-    
+    #myTopnav{
+        display: block;
+      }
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
     position: absolute;
