@@ -48,13 +48,14 @@ button{
 #check{
     display: none;
 }
+img .han{
+    font: 100px!important;
+}
 .icon{
-    margin-top: px;
-    margin-right: px;
+    margin-right: 20px;
     position: absolute;
-    bottom: 1;
+    bottom: 2;
     right: 0;
-    margin-right: 40px;
 }
 input:checked + .logo{
     background-color: brown;
@@ -162,5 +163,57 @@ input:checked  + .menu-resp{
     background-color: green;
 }
 .last{
+    display: none;
+}
+#topnav a{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    background-color: #ddd;
+    text-align: center;
+    
+  }
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+  /* .topnav .icon {
+    display: none;
+  } */
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+#myTopnav{
+    margin-top: 10vh;
+    margin-bottom: 0px!important;
+    border-radius: 20px;
+}
+
+#wrap{
     display: none;
 }
