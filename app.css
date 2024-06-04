@@ -46,7 +46,7 @@ button{
     width: 80px;
 }
 #check{
-    display: none;
+    display: non;
 }
 img .han{
     font: 100px!important;
@@ -165,7 +165,133 @@ input:checked  + .menu-resp{
 .last{
     display: none;
 }
-#topnav a{
+#check{
+    display: non;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.men-bar{
+    position: absolute;
+    font-size: 40px;
+    left:100%;
+    color: white;
+    top: 65px;
+    background-color: gray;
+}
+#checker:checked +.men ul{
+    background-color: #2196F3;
+}
+.men{
+    margin-top: 10vh;
+    height: 50vh;
+    
+}
+input[type="checkbox"]:checked ~ .men{
+    left: 10%;
+    background-color: yellow!important;
+    
+}
+
+.men ul{
+    line-height: 50px;
+    position: absolute;
+    left: -20%;
+    right:20%;
+    width:50%;
+    top: 10%;
+    border-radius: 20px;
+    transition: 1s;
+    background-color: grey;
+}
+
+
+
+/* styles.css */
+
+  
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1001; /* Ensures the menu icon stays above the menu */
+  }
+  
+  .menu {
+    width: 200px;
+    height: 40%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    right: -200px; /* Initially hidden off-screen */
+    transition: right 0.3s ease;
+    z-index: 1000;
+    border-radius: 25px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .close-menu {
+    font-size: 30px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+  }
+  
+  .cancel-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  input[type="checkbox"]:checked ~ .menu {
+    right: 0; /* Slides the menu into view */
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+/* #topnav a{
     text-align: center;
     display: block;
     justify-content: center;
@@ -221,4 +347,4 @@ input:checked  + .menu-resp{
 
 #wrap{
     display: none;
-}
+} */
