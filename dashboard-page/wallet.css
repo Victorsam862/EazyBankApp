@@ -70,3 +70,14 @@ a{
         font-size: 18px!important;
     }
 }
+@media screen and (max-width: 450px) {
+    .card{
+        width: 100%;
+    }
+    .num{
+        width: 70%;
+    }
+    .top{
+        font-size: 12px;
+    }
+}
