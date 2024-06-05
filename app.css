@@ -231,6 +231,8 @@ input[type="checkbox"]:checked ~ .men{
     transition: right 0.3s ease;
     z-index: 1000;
     border-radius: 25px;
+    margin-top: 80px;
+    transition: 1s;
   }
   
   .menu ul {
