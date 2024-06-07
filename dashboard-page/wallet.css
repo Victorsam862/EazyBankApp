@@ -1,6 +1,7 @@
 .card{
     padding: 40px!important;
     width: 80vh;
+    cursor: pointer;
     margin: auto;
     border-radius: 20px;
     background-color: orange!important;
@@ -49,33 +50,42 @@ a{
     border: 2px solid;
     padding: 3px 8px;
     border-radius: 10px;
-    margin-left: 30px;
+    margin-left: 10px;
 }
-@media screen and (max-width: 730px) {
+@media screen and (min-width: 1000px) {
     .card{
-        width: 90%;
+        width: 50%!important;
+    }
+    .num{
+        width: 50%!important;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 1000px){
+    .card{
+        width: 70%!important;
     }
     .num{
         width: 45%;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 500px) and (max-width: 700px) {
     .card{
         width: 90%;
     }
     .num{
-        width: 60%;
+        width: 50%;
     }
     .top{
         font-size: 18px!important;
     }
 }
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 500px) and (max-width: 300px){
     .card{
-        width: 100%;
+        width: 100%!important;
+        padding: 20px!important;
     }
     .num{
-        width: 70%;
+        width: 70%!important;
     }
     .top{
         font-size: 12px;
