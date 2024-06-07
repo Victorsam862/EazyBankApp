@@ -73,21 +73,21 @@ a{
         width: 90%;
     }
     .num{
-        width: 50%;
+        width: 60%;
     }
     .top{
         font-size: 18px!important;
     }
 }
-@media screen and (min-width: 500px) and (max-width: 300px){
+@media screen and (min-width: 300px) and (max-width: 500px){
     .card{
         width: 100%!important;
         padding: 20px!important;
     }
     .num{
-        width: 70%!important;
+        width: 60%!important;
     }
     .top{
-        font-size: 12px;
+        font-size: 10px!important;
     }
 }
