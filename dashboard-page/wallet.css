@@ -16,6 +16,9 @@
     border-radius: 20px;
     color: whitesmoke;
 }
+.header a:hover{
+    color: black;
+}
 .header{
     z-index: 1;
     width: 100%;

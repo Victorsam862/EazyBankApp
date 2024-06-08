@@ -313,13 +313,16 @@ button a:hover{
     display: none;
 }
 .quick{
-    background-color: white;
     height: 120px;
     border-radius: 30px;
     cursor: pointer;
     box-shadow: 1px 5px 10px 0px;
     transition: 1s;
-    
+    color: black;
+    text-decoration: none!important;
+}
+.quick:hover{
+    color: black;
 }
 .action{
     font-size: 25px!important;
