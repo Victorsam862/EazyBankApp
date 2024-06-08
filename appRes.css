@@ -168,6 +168,9 @@ h5{
         height: 50vh!important;
         position: absolute;
     }
+    .row{
+        padding-right: 0px;
+    }
     .background .image4{
         width: 75%!important;
         height: 50vh!important;
