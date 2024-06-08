@@ -64,7 +64,7 @@ h5{
         z-index: 1;
     }
     #element,.switch{
-        display: none!important;
+        display: non!important;
     }
     .row, .head{
         padding-left: 0%!important;
@@ -161,7 +161,12 @@ h5{
         z-index: 1;
     }
     #element,.switch{
-        display: none!important;
+       height: 4vh;
+       margin: auto;    
+    }
+    .dark-mode{
+        display: flex;
+        width: 100%;
     }
     .row, .head{
         padding-left: 0%!important;

@@ -34,6 +34,9 @@ button{
     width: 150px;
     font-size: 15px!important;
 }
+.toggle{
+    width: 10px!important;
+}
 
 .switch{
     width: 60px;
@@ -222,19 +225,21 @@ input[type="checkbox"]:checked ~ .men{
   }
   
   .menu {
-    width: 200px;
+    width: 280px;
     height: 40%;
     background-color: #333;
     position: fixed;
     top: 0;
-    right: -200px; /* Initially hidden off-screen */
-    transition: right 0.3s ease;
+    right: -280px; 
+    transition: right 0.3s ;
     z-index: 1000;
     border-radius: 25px;
     margin-top: 80px;
     transition: 1s;
   }
-  
+  #menu-toggle{
+    display: none;
+  }
   .menu ul {
     list-style-type: none;
     padding: 0;
@@ -274,9 +279,9 @@ input[type="checkbox"]:checked ~ .men{
     bottom: 0;
   }
   
-  input[type="checkbox"] {
-    display: none;
-  }
+  /* input[type="checkbox"] {
+    display: non;
+  } */
   
   input[type="checkbox"]:checked ~ .menu {
     right: 0; /* Slides the menu into view */

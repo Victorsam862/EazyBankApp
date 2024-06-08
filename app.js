@@ -1,6 +1,6 @@
 var toggleSwitch = document.getElementById('toggle');
-var body = document.bod;
-var header = document.getElementById('header','head');
+// var body = document.body;
+var header = document.getElementById('head');
 var container = document.getElementById('bod');
 
 toggleSwitch.addEventListener('change', ()=>{
@@ -14,6 +14,15 @@ toggleSwitch.addEventListener('change', ()=>{
         
     }
 })
+
+var toggleSwitch = document.getElementById('toggle');
+var head = document.getElementById('head')
+var container = document.getElementById('bod')
+
+
+
+
+
 
     document.querySelectorAll('.menu a').forEach(item => {
     item.addEventListener('click', () => {
