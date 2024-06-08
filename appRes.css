@@ -8,6 +8,9 @@ h5{
     .col-md-6{
         margin-top: 50px;
     }
+    .row{
+        padding-right: 0px;
+    }
     .logo ul{
         display: none;
     }
@@ -52,7 +55,15 @@ h5{
         margin-top: 50px;
         padding: 2px 20px!important;
     }
-    
+    .row{
+        padding-right: 0px;
+    }
+    .bg-light{
+        display: block!important;
+    }
+    .menu-icon{
+        display: block!important;
+    }
     .logo ul a{
         display: none;
     }
@@ -133,6 +144,12 @@ h5{
     .col-sm-12, .head h4, .head p{
         margin-top: 50px;
         padding: 2px 20px!important;
+    }
+    .bg-light{
+        display: block!important;
+    }
+    .menu-icon{
+        display: block!important;
     }
     .topnav a{
         display: block;
@@ -289,16 +306,5 @@ button{
         width: 100%;
         padding-left: 0px!important;
     }
-
-    
-    /* .foot{
-        gap: 0px!important;
-        
-    } */
-    
-    /* .button{
-        margin-left: 50px;
-        margin-right: 0px;
-    } */
     
 } 

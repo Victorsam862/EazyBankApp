@@ -1,4 +1,6 @@
-
+.container-fluid{
+    
+}
 .row{
     gap: 30px;
     padding: 20px;
@@ -7,6 +9,9 @@
 }
 .top{
     padding-top: 80px!important;
+}
+header a{
+    color: black;
 }
 .col{
     background-color: whitesmoke!important;
@@ -17,7 +22,7 @@
     border-radius: 30px;
     cursor: pointer;
     box-shadow: 2px 0px 10px 0px black;
-    transition: 1.5s;
+    transition: 2s;
 }
 .icon{
     font-size: 30px;
@@ -41,7 +46,6 @@ h5{
 }
 @media screen and (max-width: 600px) and (min-width: 300px){
     .row{
-        background-color: brown;
         width: 100%!important;
         gap: 10px;
     }

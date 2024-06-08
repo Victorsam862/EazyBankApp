@@ -44,12 +44,8 @@ button{
     display: block!important;
 }
 .check{
-    background-color: gree;
     position: relative;
     width: 80px;
-}
-#check{
-    display: non;
 }
 img .han{
     font: 100px!important;
@@ -103,6 +99,7 @@ input:checked + .slider:before{
 .row{
     width: 105%;
     padding-left: 110px;
+    padding-right: 50px;
 }
 .margin{
     margin-top: 100px;
@@ -111,6 +108,27 @@ input:checked + .slider:before{
 }
 .head{
     padding-left: 110px;
+}
+.bg-light{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    margin-top: 0px!important;
+    width: 100%!important;
+    margin-left: 0px!important;
+    height: 10vh;
+}
+a button{
+    color: black;
+}
+a button:hover{
+    color: black!important;
+}
+.img{
+    height: 4.2vh!important;
+}
+.top-space{
+    margin-top: 40px!important;
 }
 .contain2{
     padding-top: 20px!important;
@@ -160,16 +178,10 @@ input:checked  + .menu-resp{
     transition: 3s;
     left: -370px;
 }
-#check:checked ~.demo{
-    /* position: absolute;
-    right: 270px; */
-    background-color: green;
-}
 .last{
     display: none;
 }
 #check{
-    display: non;
     position: absolute;
     top: 0;
     right: 0;
@@ -193,9 +205,14 @@ input:checked  + .menu-resp{
 input[type="checkbox"]:checked ~ .men{
     left: 10%;
     background-color: yellow!important;
-    
 }
-
+#head{
+    display: block!important;
+    background-color: #2196F3!important;
+}
+.menu-icon{
+    display: none!important;
+}
 .men ul{
     line-height: 50px;
     position: absolute;
@@ -206,13 +223,7 @@ input[type="checkbox"]:checked ~ .men{
     border-radius: 20px;
     transition: 1s;
     background-color: grey;
-}
-
-
-
-/* styles.css */
-
-  
+}  
 .menu-icon {
     font-size: 30px;
     cursor: pointer;
@@ -221,7 +232,6 @@ input[type="checkbox"]:checked ~ .men{
     position: absolute;
     top: 10px;
     right: 10px;
-    z-index: 1001; /* Ensures the menu icon stays above the menu */
   }
   
   .menu {
@@ -277,51 +287,11 @@ input[type="checkbox"]:checked ~ .men{
     cursor: pointer;
     position: absolute;
     bottom: 0;
-  }
-  
-  /* input[type="checkbox"] {
-    display: non;
-  } */
-  
+  }  
   input[type="checkbox"]:checked ~ .menu {
     right: 0; /* Slides the menu into view */
+    height: 50vh!important;
   }
-  
-
-
-
-
-
-
-
-
-
-
-
-/* #topnav a{
-    text-align: center;
-    display: block;
-    justify-content: center;
-    margin: auto;
-    
-}
-.topnav a {
-    float: left;
-    display: block;
-    color: black;
-    padding: 10px;
-    text-align: center;
-    background-color: #ddd;
-    text-align: center;
-  }
-  
-  .topnav a:hover {
-    background-color: white;
-    color: black;
-  }
-  /* .topnav .icon {
-    display: none;
-  } */
   #myTopnav{
     display: none;
   }
@@ -353,5 +323,5 @@ input[type="checkbox"]:checked ~ .men{
 }
 
 #wrap{
-    display: none;
-} */
+    display: non;
+} 
