@@ -37,7 +37,9 @@ button{
 .toggle{
     width: 10px!important;
 }
-
+#logo-head{
+    width: 20vh;
+}
 .switch{
     width: 60px;
     position: relative;
