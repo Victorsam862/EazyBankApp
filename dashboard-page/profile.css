@@ -26,8 +26,8 @@ img{
 .btn{
     background-color: bisque!important;
     border-radius: 40px!important;
-    padding: 10px 30px!important;
-    width: 200px;
+    padding: 10px 10px!important;
+    width: 160px;
     font-weight: bold!important;
     color: coral!important;
 }
