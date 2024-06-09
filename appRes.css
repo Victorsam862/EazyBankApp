@@ -9,7 +9,7 @@ h5{
         margin-top: 50px;
     }
     .row{
-        padding-right: 0px;
+        padding-right: 30px;
     }
     .logo ul{
         display: none;
@@ -58,7 +58,7 @@ h5{
     .row{
         padding-right: 0px;
     }
-    .bg-light{
+    .light{
         display: block!important;
     }
     .menu-icon{
@@ -145,7 +145,7 @@ h5{
         margin-top: 50px;
         padding: 2px 20px!important;
     }
-    .bg-light{
+    .light{
         display: block!important;
     }
     .menu-icon{
@@ -280,6 +280,7 @@ h5{
 li a:hover, .text a:hover{
     color: gray;
 }
+
 button{
     background-color: hsl(136, 65%, 51%)!important;
 }

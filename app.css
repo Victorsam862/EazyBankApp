@@ -58,9 +58,6 @@ img .han{
     bottom: 2;
     right: 0;
 }
-input:checked + .logo{
-    background-color: brown;
-}
 .slider{
     background-color: #ccc;
     height: 26px;
@@ -108,10 +105,12 @@ input:checked + .slider:before{
     margin-bottom: 100px;
     letter-spacing: 2px;
 }
+
 .head{
     padding-left: 110px;
 }
-.bg-light{
+.light{
+    background-color: hsl(220, 16%, 96%);
     display: none;
     position: fixed;
     z-index: 1;
@@ -150,10 +149,10 @@ h6{
 #check{
     display: none;
 }
-input:checked  + .menu-resp{
+/* input:checked  + .menu-resp{
     background-color: black!important;
     color: red;
-}
+} */
 .resp-menu{
     margin-top: 10vh;
     display: none;
@@ -196,9 +195,9 @@ input:checked  + .menu-resp{
     top: 65px;
     background-color: gray;
 }
-#checker:checked +.men ul{
+/* #checker:checked +.men ul{
     background-color: #2196F3;
-}
+} */
 .men{
     margin-top: 10vh;
     height: 50vh;
@@ -234,20 +233,20 @@ input[type="checkbox"]:checked ~ .men{
     position: absolute;
     top: 10px;
     right: 10px;
-  }
+}
   
   .menu {
-    width: 280px;
     height: 40%;
     background-color: #333;
     position: fixed;
     top: 0;
-    right: -280px; 
+    right: -35vh; 
     transition: right 0.3s ;
     z-index: 1000;
     border-radius: 25px;
     margin-top: 80px;
     transition: 1s;
+    width: 35vh!important;
   }
   #menu-toggle{
     display: none;
@@ -256,11 +255,13 @@ input[type="checkbox"]:checked ~ .men{
     list-style-type: none;
     padding: 0;
     margin: 0;
+    padding-top: 25px;
   }
   
   .menu li {
     padding: 15px;
     text-align: center;
+    display: flex;
   }
   
   .menu li a {
@@ -323,7 +324,10 @@ input[type="checkbox"]:checked ~ .men{
     margin-bottom: 0px!important;
     border-radius: 20px;
 }
-
-#wrap{
-    display: non;
-} 
+.dark-mode{
+    display: flex;
+    width: 100%;
+}
+.dark-mode h5{
+    margin-right: 30px!important;
+}
