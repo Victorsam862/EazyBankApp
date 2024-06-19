@@ -1,43 +1,44 @@
-var toggleSwitch = document.getElementById('toggle');
-var toggleSwitch2 = document.getElementById('toggles');
-var header = document.getElementById('header');
-var container = document.getElementById('bod');
+document.addEventListener('DOMContentLoaded', (event) => {
+    const toggleSwitch = document.getElementById('dark-mode-toggle');
+    const currentTheme = localStorage.getItem('theme');
 
-
-toggleSwitch.addEventListener('change', ()=>{
-    if(toggleSwitch.checked){
-        header.style.background = 'black'
-        container.style.color = 'hsl(233, 8%, 62%)'
-        container.style.backgroundColor = 'black'
+    if (currentTheme === 'dark') {
+        document.body.classList.add('dark-mode');
+        toggleSwitch.checked = true;
+        applyDarkModeToDivs(true);
+    } else {
+        toggleSwitch.checked = false;
+        applyDarkModeToDivs(false);
     }
-    else{
-        container.style.backgroundColor = 'white'
-        header.style.background = 'hsl(220, 16%, 96%)'
-    }
-})
 
-var head = document.getElementById('bod');
-
-
-toggleSwitch2.addEventListener('change', ()=>{
-    if(toggleSwitch2.checked){
-        header.style.background = 'black'
-        container.style.color = 'hsl(233, 8%, 62%)'
-        head.style.backgroundColor = 'black'
-    }
-    else{
-        container.style.backgroundColor = 'white'
-        head.style.background = 'hsl(220, 16%, 96%)'
-    }
-})
-
-
-
-document.querySelectorAll('.menu a').forEach(item => {
-    item.addEventListener('click', () => {
-      document.getElementById('menu-toggle').checked = false;
+    toggleSwitch.addEventListener('change', function () {
+        if (this.checked) {
+            document.body.classList.add('dark-mode');
+            localStorage.setItem('theme', 'dark');
+            applyDarkModeToDivs(true);
+        } else {
+            document.body.classList.remove('dark-mode');
+            localStorage.setItem('theme', 'light');
+            applyDarkModeToDivs(false);
+        }
     });
-  });
+});
 
 
+function applyDarkModeToDivs(isDarkMode) {
+    const contentDivs = document.querySelectorAll('.content');
+    const headerDivs = document.querySelectorAll('.header');
+    const footerDivs = document.querySelectorAll('.footer');
 
+    contentDivs.forEach(div => {
+        div.classList.toggle('dark-mode', isDarkMode);
+    });
+
+    headerDivs.forEach(div => {
+        div.classList.toggle('dark-mode', isDarkMode);
+    });
+
+    footerDivs.forEach(div => {
+        div.classList.toggle('dark-mode', isDarkMode);
+    });
+}
