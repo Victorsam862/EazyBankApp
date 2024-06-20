@@ -10,9 +10,17 @@ body.dark-mode{
 .light{
     background-color: green!important;
 }
+
 .conts {
     font-size: 18px;
-    width: 42%;
+    width: 30%;    
+}
+.sign{
+    width: 30%!important;
+    padding: 0px!important;
+}
+.login{
+    width: 100px;
 }
 .article{
     margin-bottom: 20px;
