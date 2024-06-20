@@ -24,7 +24,8 @@ body.dark-mode{
 }
 .article{
     margin-bottom: 20px;
-    color: whitesmoke;
+    color: gray;
+    font-size: 40px!important;
 }
 .contain3{
     color: #444;
