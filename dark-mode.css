@@ -7,10 +7,34 @@ body.dark-mode{
     background-color: #121212;
     color: white;
 }
+.content{
+    color: black;
+}
+.addSend{
+    margin-top: 40px;
+    padding-top: 5px!important;
+    width: 150px;
+    height: 35px;
+    border-radius: 50px;
+    color: black;
+    margin-right: 30px;
+    background-color: grey;
+}
+.side-bar ul a{
+    text-decoration: none;
+}
 .light{
     background-color: green!important;
 }
-
+.light{
+    height: 10.2vh;
+}
+/* .taker{
+    background-color: yellow!important;
+}
+.taker.dark-mode{
+    background-color: #121212;
+} */
 .conts {
     font-size: 18px;
     width: 30%;    

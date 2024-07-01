@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 
 function applyDarkModeToDivs(isDarkMode) {
-    const contentDivs = document.querySelectorAll('.content');
+    const contentDivs = document.querySelectorAll('.taker');
     const headerDivs = document.querySelectorAll('.header');
     const footerDivs = document.querySelectorAll('.footer');
 

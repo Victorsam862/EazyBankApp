@@ -240,13 +240,13 @@ input[type="checkbox"]:checked ~ .men{
     background-color: #333;
     position: fixed;
     top: 0;
-    right: -35vh; 
+    right: -100%; 
     transition: right 0.3s ;
     z-index: 1000;
     border-radius: 25px;
     margin-top: 80px;
     transition: 1s;
-    width: 35vh!important;
+    width: 100%!important;
   }
   #menu-toggle{
     display: none;
@@ -278,6 +278,7 @@ input[type="checkbox"]:checked ~ .men{
     top: 10px;
     left: 10px;
     color: white;
+    
   }
   
   .cancel-button {
